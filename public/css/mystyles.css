@@ -236,6 +236,10 @@ background-image: url("http://www.transparenttextures.com/patterns/green-dust-an
   color:white;
 }
 
+span.fa.fa-whatsapp {
+  padding-left:8%;
+}
+
 /*************************** MEDIA QUERIES *********************************************/
 
 
@@ -281,6 +285,12 @@ background-image: url("http://www.transparenttextures.com/patterns/green-dust-an
     margin-top: 150px;
   }
 
+    .footer .fa-1x {
+    font-size:1.6em;
+    
+    color:white;
+  }
+
   .portfolio {
     margin-top: 100px;
   }
@@ -288,8 +298,12 @@ background-image: url("http://www.transparenttextures.com/patterns/green-dust-an
 
 @media (min-width: 768px) and (max-width:975px) {
   .footer .fa-1x {
-    font-size:1.5em;
+    font-size:1.3em;
+    
     color:white;
+  }
+  span.fa.fa-whatsapp {
+    padding-left:3%;
   }
 }
 
