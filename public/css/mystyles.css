@@ -1,6 +1,7 @@
 body {
   font-family: Montserrat,Helvetica,Arial,Serif;
   position:relative;
+  background: #fafafa;
 }
 
 /** NAVBAR **/
@@ -287,7 +288,7 @@ span.fa.fa-whatsapp {
 
     .footer .fa-1x {
     font-size:1.6em;
-    
+
     color:white;
   }
 
@@ -299,7 +300,7 @@ span.fa.fa-whatsapp {
 @media (min-width: 768px) and (max-width:975px) {
   .footer .fa-1x {
     font-size:1.3em;
-    
+
     color:white;
   }
   span.fa.fa-whatsapp {
@@ -387,8 +388,50 @@ span.fa.fa-whatsapp {
   .footer textarea {
     height: 180px !important;
   }
-  
+
 
 
 }
 
+
+.thumbnail:hover {
+    background-color: lightseagreen;
+    z-index: 9999999;
+    text-align: center;
+}
+.thumbnail:hover>img {
+    opacity:.2;
+
+}
+
+a.portfolio-link:hover>.icon-hover {
+display: block;
+
+}
+
+
+i.link-icon.fa.fa-link.fa-4x{
+color:white;
+display:block;
+}
+
+.hover-content {
+    position:absolute;
+    width:100%;
+    top:50%;
+    margin-top:-25px;
+
+}
+
+.icon-hover {
+    background-color: lightseagreen;
+    display:none;
+    position:absolute;
+    width:100%;
+    height: 100%;
+    opacity:.9;
+}
+.portfolio-link {
+    display:block;
+    position:relative;
+}
